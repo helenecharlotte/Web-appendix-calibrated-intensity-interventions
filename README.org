@@ -1,0 +1,4 @@
+* Web appendix 
+
+This is the web appendix to our manuscript entitled /Causal inference
+for calibrated scaling interventions on time-to-event processes/. \\
