@@ -1,4 +1,48 @@
 * Web appendix 
 
-This is the web appendix to our manuscript entitled /Causal inference
+This is the web appendix to the manuscript entitled /Causal inference
 for calibrated scaling interventions on time-to-event processes/. \\
+
+
+*** Contents 
+
+- simulations/:  R scripts to run the simulation studies.
+- R/: R functions called by the simulation scripts.
+- output/: folder where simulation outputs are saved by the scripts.
+- figures/: figures reproduced from simulation output. 
+
+*** Simulation of data
+
+The simulation code uses the companion R package *simevent*, which can be
+installed from GitHub: https://github.com/miclukacova/simevent.
+
+*** Reproducing the simulation results
+
+- The script simulations/run.sim.alpha.R reproduces the results on
+  estimation of \(\alpha\)-fixed parameters presented in the
+  simulation study.
+
+- The script simulations/run.sim.calibration.R reproduces the results
+  on estimation of calibrated parameters presented in the simulation
+  study.
+
+  
+
+Each script sets simulation parameters near the top,  e.g.:
+#+ATTR_LATEX: :options otherkeywords={}, deletekeywords={}
+#+BEGIN_SRC R  :results code :exports code  :session *R* :cache yes  
+M <- 500; N <- 1000
+#+END_SRC 
+
+You can reduce M to a smaller number (e.g., \texttt{M <- 1}) to do a
+quick run. Note that the code uses parallelization, but that this
+takes the local number of cores available into account automatically.
+
+*** Simulation results
+
+All output from simulation studies is saved in the folder /output/.
+
+All figures in the simulation section can be reproduced by running the
+script /simulations/present.output.R/.
+
+
