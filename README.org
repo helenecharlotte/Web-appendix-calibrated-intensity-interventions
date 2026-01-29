@@ -23,7 +23,7 @@ remotes::install_github("miclukacova/simevent")
 
 *** Reproducing the simulation results
 
-1. [@1] The script simulations/run.sim.alpha.R reproduces the results
+1. [@1] The script /simulations/run.sim.alpha.R/ reproduces the results
    on estimation of $\alpha$-fixed parameters presented in the
    simulation study.
 
@@ -34,11 +34,11 @@ The values of $\alpha$ can be varied with:
 which.alphas <- sort(c(0, 0.1, 0.25, 2.25, 3, 0.5, 1, 1.5))
 #+END_SRC
 
-- The script simulations/run.sim.calibration.R reproduces the results
+- The script /simulations/run.sim.calibration.R/ reproduces the results
   on estimation of calibrated parameters presented in the simulation
   study.
 
-The values of \(\theta\) (and \(\rho\)) can be varied with:
+The values of $\theta$ (and $\rho$) can be varied with:
 
 #+ATTR_LATEX: :options otherkeywords={}, deletekeywords={}
 #+BEGIN_SRC R  :results code :exports code  :session *R* :cache yes  
@@ -61,7 +61,7 @@ Each script sets simulation parameters near the top,  e.g.:
 M <- 500; N <- 1000
 #+END_SRC 
 
-You can reduce M to a smaller number (e.g., \texttt{M <- 1}) to do a
+You can reduce M to a smaller number (e.g., setting M to 1) to do a
 quick run. Note that the code uses parallelization, but that this
 takes the local number of cores available into account automatically.
 
