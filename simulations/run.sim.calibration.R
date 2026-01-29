@@ -11,7 +11,6 @@ library(foreach)
 library(doParallel)
 library(parallel)
 library(devtools)
-load_all('./simevent/')
 library(simevent)
 
 #-------------------------------------------------------------------------------------------#

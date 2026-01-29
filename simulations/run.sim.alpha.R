@@ -3,9 +3,9 @@
 ## Author: Helene
 ## Created: Dec 18 2025 (08:58) 
 ## Version: 
-## Last-Updated: Jan 29 2026 (08:15) 
+## Last-Updated: Jan 29 2026 (08:40) 
 ##           By: Helene
-##     Update #: 254
+##     Update #: 256
 #----------------------------------------------------------------------
 ## 
 ### Commentary: 
@@ -27,7 +27,6 @@ library(foreach)
 library(doParallel)
 library(parallel)
 library(devtools)
-load_all('./simevent/')
 library(simevent)
 
 #-------------------------------------------------------------------------------------------#
