@@ -16,10 +16,15 @@ for calibrated scaling interventions on time-to-event processes/. \\
 The simulation code uses the companion R package *simevent*, which can be
 installed from GitHub: https://github.com/miclukacova/simevent.
 
+#+ATTR_LATEX: :options otherkeywords={}, deletekeywords={}
+#+BEGIN_SRC R  :results code :exports code  :session *R* :cache yes  
+remotes::install_github("miclukacova/simevent")
+#+END_SRC
+
 *** Reproducing the simulation results
 
 1. [@1] The script simulations/run.sim.alpha.R reproduces the results
-   on estimation of $alpha$-fixed parameters presented in the
+   on estimation of $\alpha$-fixed parameters presented in the
    simulation study.
 
 The values of $\alpha$ can be varied with:
