@@ -38,7 +38,7 @@ which.alphas <- sort(c(0, 0.1, 0.25, 2.25, 3, 0.5, 1, 1.5))
   on estimation of calibrated parameters presented in the simulation
   study.
 
-The values of \(\theta\) (and \(\rho\) can be varied with:
+The values of \(\theta\) (and \(\rho\)) can be varied with:
 
 #+ATTR_LATEX: :options otherkeywords={}, deletekeywords={}
 #+BEGIN_SRC R  :results code :exports code  :session *R* :cache yes  
